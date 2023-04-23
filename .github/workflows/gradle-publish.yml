@@ -51,5 +51,5 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: build/libs/discord-1.0-SNAPSHOT.jar  # Replace with the path to your JAR file
-        asset_name: discord-1.0-SNAPSHOT.jar  # Replace with the desired name for the JAR in the release
+        asset_name: discord.jar  # Replace with the desired name for the JAR in the release
         asset_content_type: application/java-archive
